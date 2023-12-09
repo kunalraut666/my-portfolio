@@ -7,6 +7,14 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script>
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      var video = document.getElementById('projectVideo');
+  
+      if (!isMobile) {
+          video.autoplay = true;
+      }
+  </script>
   </head>
   <body>
     <nav id="desktop-nav">
