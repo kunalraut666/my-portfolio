@@ -181,7 +181,7 @@
   .slider {
     /* width: 85%; */
     position: relative;
-  width: 70%;
+  width: 100%;
   overflow: hidden;
   justify-content: center;
   align-items: center;
